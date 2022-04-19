@@ -1,0 +1,67 @@
+
+/* universal styling */
+
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* header styles */
+
+/* nav */
+
+ul {
+    flex-basis: 450px;
+    flex-shrink: 1;
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid seashell;
+}
+
+nav.logo {
+    margin-right: auto;
+}
+
+/* mission /  */
+
+.container-mission {
+    background-image: url("/resources/images/img-mission-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 700px;
+    margin: auto 53px;
+}
+
+.item-mission {
+    width: 100%;
+    opacity: 1;
+    background-color: black;
+}
+
+/* Tea of the Month */
+
