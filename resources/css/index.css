@@ -1,4 +1,3 @@
-
 /* universal styling */
 
 * {
@@ -15,6 +14,14 @@ body {
     margin: 0 auto;
 }
 
+main {
+    margin: 0 5px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
 /* header styles */
 
 /* nav */
@@ -25,6 +32,7 @@ ul {
     list-style: none;
     margin-left: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -35,11 +43,16 @@ nav {
     align-items: center;
     margin: 0;
     border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    position: sticky;
 }
 
 nav.logo {
     margin-right: auto;
+    padding: 0;
 }
+
 
 /* mission /  */
 
@@ -65,3 +78,28 @@ nav.logo {
 
 /* Tea of the Month */
 
+.month-tea {
+    margin: 0 50px;
+    
+}
+
+.heading {
+    padding-top: 50px;
+}
+
+.container-tea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 1000px;
+    gap: 20px;
+}
+
+.month-tea img {
+    width: 300px;
+    height: 200px;
+}
+
+.item-tea {
+    flex: 1 1 auto;
+}
